@@ -1,0 +1,33 @@
+{
+  "name": "react-dev-sdk",
+  "version": "1.0.0",
+  "description": "react-dev-sdk",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaowei1012/react-dev-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaowei1012/react-dev-sdk/issues"
+  },
+  "homepage": "https://github.com/gaowei1012/react-dev-sdk#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "dependencies": {
+    "antd": "^4.20.2",
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3"
+  }
+}

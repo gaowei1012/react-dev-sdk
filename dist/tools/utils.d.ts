@@ -1,4 +1,4 @@
-declare class _utils {
+export declare class _utils {
     /**
      * 创建时间
      * @param format 时间戳格式
@@ -21,4 +21,3 @@ declare class _utils {
      */
     static formatStringSplit: (str: string) => string;
 }
-export { _utils };
